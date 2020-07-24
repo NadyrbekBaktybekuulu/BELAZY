@@ -536,6 +536,7 @@ button:active {
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 100px;
+    padding: 0;
 }
 
 .comfortable-work li {
@@ -565,4 +566,69 @@ button:active {
     background-image: url('../img/layer_3.png');
     background-repeat: no-repeat;
     background-position: top center;
+}
+
+.stock {
+    background-color: #0b3554;
+}
+
+.stock .container {
+    padding: 100px 0 100px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.stock h2 {
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.stock ul {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    list-style-type: none;
+    padding: 90px 0 0 0;
+}
+
+.stock ul li {
+    margin: 12px;
+    position: relative;
+}
+
+.stock .slider-left-arrow {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 80px;
+    height: 270px;
+}
+
+.stock .slider-left-arrow:hover {
+    background-color: #000000;
+    opacity: .5;
+}
+
+.stock .slider-right-arrow {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -12px;
+    cursor: pointer;
+    width: 80px;
+    height: 270px;
+}
+
+.stock .slider-right-arrow:hover {
+    background-color: #000000;
+    opacity: .5;
+}
+
+.stock .slider-right-arrow:active ~ .stock ul:nth-child(2) {
+    transform: translateX(10px)
 }
