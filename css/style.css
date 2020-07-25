@@ -584,51 +584,47 @@ button:active {
     padding-bottom: 20px;
 }
 
-.stock ul {
+.stock .slider_js {
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-    list-style-type: none;
-    padding: 90px 0 0 0;
+    margin-top: 50px;
 }
 
-.stock ul li {
-    margin: 12px;
-    position: relative;
-}
-
-.stock .slider-left-arrow {
+.control_btn {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    width: 80px;
+    padding: 0;
+    margin: 0;
+    width: 40px;
     height: 270px;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #ffffff;
 }
 
-.stock .slider-left-arrow:hover {
+.control_btn:hover {
     background-color: #000000;
     opacity: .5;
 }
 
-.stock .slider-right-arrow {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    right: -12px;
-    cursor: pointer;
-    width: 80px;
+.stock #prev {
+    background-image: url('../img/keyboard-left-arrow-button.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 10px;
+    top: 8px;   
+}
+
+.stock #next {
+    background-image: url('../img/keyboard-right-arrow-button.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 10px;
+    top: 8px;   
+}
+
+.slider_js img {
+    width: 370px;
     height: 270px;
-}
-
-.stock .slider-right-arrow:hover {
-    background-color: #000000;
-    opacity: .5;
-}
-
-.stock .slider-right-arrow:active ~ .stock ul:nth-child(2) {
-    transform: translateX(10px)
+    margin: 8px;
 }

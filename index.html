@@ -215,16 +215,16 @@
         <div class="container">
             <h2>У нас собственный склад!</h2>
             <p>Это позволяет нам быстро обрабатывать запросы и отгружать детали <br>в день заказа!</p>
-            <ul>
-                <li class="slider-left-arrow"><img src="img/keyboard-left-arrow-button.png" alt=""></li>
-                <li><img class="slide-one" src="img/slider_1.jpg" alt="slider"></li>
-                <li><img class="slide-two" src="img/slider_2.jpg" alt="slider"></li>
-                <li><img class="slide-three" src="img/slider_1.jpg" alt="slider"></li>
-                <li><img class="slide-four" src="img/slider_2.jpg" alt="slider"></li>
-                <li><img class="slide-five" src="img/slider_1.jpg" alt="slider"></li>
-                <li class="slider-right-arrow"><img src="img/keyboard-right-arrow-button.png" alt=""></li>
-            </ul>
+            <div class="slider_js">
+                <img id="image" src="img/slider_1.jpg" alt="elementSlider">
+                <img id="middle-image" src="img/middle_slider_1.jpg" alt="elementSlider">
+                <img id="last-image" src="img/last_slider_3.jpg" alt="elementSlider">
+                <button class="control_btn" id="prev"></button>
+                <button class="control_btn" id="next"></button>
+            </div>
         </div><!--container-->
     </section><!--stock-->
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html> 
