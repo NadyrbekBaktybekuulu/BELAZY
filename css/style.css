@@ -628,3 +628,165 @@ button:active {
     height: 270px;
     margin: 8px;
 }
+
+.our_mobile_teams .container {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.our_mobile_teams .mobile_teams_title{
+    font-weight: 900;
+}
+
+.our_mobile_teams ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.our_mobile_teams ul li {
+    padding: 310px 0 0 0;
+}
+
+.our_mobile_teams .mobile_teams_delivery_icon {
+    background-image: url('../img/delivery_in_ellips_time.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.our_mobile_teams .mobile_teams_toolbox_icon {
+    background-image: url('../img/toolbox.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.our_mobile_teams .mobile_teams_certificate_icon {
+    background-image: url('../img/certificate_inside_ellipse.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.free_consulting {
+    background-color: #0d324d;
+    background-image: url('../img/Слой17.png');
+    background-repeat: no-repeat;
+    background-position: right -150px bottom -180px;
+}
+
+.free_consulting .container {
+    padding: 100px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.free_consulting .free_consulting_title {
+    padding: 0 0 60px 0;
+    font-size: 30px;
+}
+
+.free_consulting .free-consulting-text {
+    font-size: 12px;
+}
+
+.free_consulting .free-consulting-tel {
+    padding-top: 10px;
+}
+
+.free_consulting .free-consulting-tel a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.free_consulting form {
+    text-align: center;
+}
+
+.free_consulting input {
+    width: 370px;
+    height: 70px;
+    margin: 80px 15px 15px 15px;
+    padding-left: 30px;
+    border: none;
+    outline: none;
+    background-image: url('../img/phone-call-auricular-symbol-in-black_icon-icons.com_56483.svg');
+    background-repeat: no-repeat;
+    background-position: right 35px center;
+}
+
+.free_consulting button {
+    width: 370px;
+    height: 72px;
+    margin: 80px 15px 15px 15px;
+    border: none;
+    outline: none;
+    background-color: #f7b516;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.come-to-our-office .container {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.come-to-our-office {
+    background-image: url(../img/our_office_bg1.png), url(../img/our_office_bg2.png);
+    background-repeat: no-repeat;
+    background-position: left -60px top -50px, right -120px bottom -90px;
+}
+
+.come-to-our-office .our-office-title {
+    font-size: 30px;
+    padding-bottom: 100px;
+    font-weight: 900;
+}
+
+.our-office-tel {
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 30px;
+}
+
+.our-office-tel a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    background-color: #191919;
+}
+
+.footer .container {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background-image: url(../img/love.png), url(../img/logo_da_marketing.png) ;
+    background-repeat: no-repeat;
+    background-position: left 578px top 54px, right 430px top 50px;
+}
+
+.footer img {
+    padding-right: 250px;
+}
+
+.footer p {
+    font-size: 11px;
+}
+
+.footer .footer-item {
+    padding-left: 345px;
+    text-align: center;
+}
+
+.footer a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2;
+    text-decoration: none;
+    color: #ffffff;
+}
