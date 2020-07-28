@@ -476,10 +476,48 @@ button:active {
 }
 
 .questions-list ol li {
+    position: relative;
     text-align: left;
     line-height: 4;
     font-weight: 700;
     padding-left: 30px;
+}
+
+.questions-list .answers {
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 2;
+    color: #000000;
+    line-height: 1.2;
+    font-size: 12px;
+    width: 330px;
+    height: 145px;
+}
+
+.questions-list .answers::before {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    transform: rotate(45deg);
+    top: -6px;
+    left: 10px;
+}
+
+.questions-list .answer {
+    padding: 10px 40px 10px 10px;
+}
+
+.answers button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
 }
 
 .questions-list ol li a{
